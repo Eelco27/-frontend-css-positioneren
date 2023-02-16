@@ -1,8 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,500&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
 .product {
     /* "auto" aan de zijkanten zorgt ervoor dat het element in het midden komt te staan*/
     margin: 80px auto;
     /* Dit element heeft een vaste breedte van 350 pixels */
     width: 350px;
+    position: relative;
 }
+/* kleuren
+(oranje `#DE6127`,
+lichtgrijs `#e8e8e8`,
+donkergrijs `#737373` en de kleuren voor de
+bolletjs, `#faa0c7`, `#272729`, `#928471` en `#c2c2b4`)*/
 
 /* - Vul dit document aan met jouw eigen css! - */
+.product-image-wrapper{
+    position: relative;
+}
+.fav-icon {
+    /*we positioneren het hartje 15px vanaf de onderkant en 15px vanaf de rechterkant van de container*/
+    width: 20px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+.new-sticker{
+    background-color: #e8e8e8;
+    color: #DE6127;
+    font-weight: 300;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 50px;
+    /*De sticker krijgt een min-waarde mee, omdat deze anders nooit buiten de afbeelding zou kunnen vallen*/
+    left: -58px;
+
+}
+.model-blazer-image{
+    width: 100%
+}
+.choice{
+    color: #737373;}
+
+.product-color-dot-color-pink{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #faa0c7;
+}
+.product-color-dot-color-black{
+    height: 20px;
+    width: 20px;
+    background-color:#272729;
+    border-radius: 50%;
+    display: inline-block;
+}
+.product-color-dot-color-beige{
+    height: 20px;
+    width: 20px;
+    background-color:#928471;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.product-color-dot-color-taupe{
+    height: 20px;
+    width: 20px;
+    background-color: #c2c2b4;
+    border-radius: 50%;
+    display: inline-block;
+}
+

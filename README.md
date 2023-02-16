@@ -23,7 +23,7 @@ Je vindt de opdracht in de map `opdracht-1`. Deze map bevat de volgende bestande
 1. Begin met de opzet van het CSS-document:
     * Importeer _Poppins_ als lettertype van Google Fonts en wijs deze toe in de body;
     * Zet de `box-sizing` op `border-box`. Dit noemen we een CSS reset;
-    * Zet de kleuren (lichtgrijs `#F7F7F7` en donkergrijs `#d3d3d3`) alvast in commentaar bovenaan het bestand, zodat je
+    * Zet de kleuren    alvast in commentaar bovenaan het bestand, zodat je
       ze gemakkelijk kunt kopiëren.
 2. Geef het article-element in de body afgeronde hoeken, een donkergrijze rand en een zachte schaduw.
 3. Plaats de afbeelding en titel (_"Pastasalade met gerookte kip"_) in het article-element. Zorg dat de afbeelding 100%
@@ -58,7 +58,7 @@ Je vindt de opdracht in de map `opdracht-2`. Deze map bevat de volgende bestande
 1. Begin met de opzet van het CSS-document:
     * Importeer _Poppins_ als lettertype van Google Fonts en wijs deze toe in de body;
     * Zet de `box-sizing` op `border-box`. Dit noemen we een CSS reset;
-    * Zet de kleuren (oranje `#DE6127`, lichtgrijs `#e8e8e8`, donkergrijs `#737373` en de kleuren voor de bolletjs, `#faa0c7`, `#272729`, `#928471` en `#c2c2b4`) alvast in commentaar bovenaan het bestand, zodat je ze gemakkelijk kunt kopiëren.
+    *  alvast in commentaar bovenaan het bestand, zodat je ze gemakkelijk kunt kopiëren.
 2. Plaats twee div-elementen in het lege `<article>` en voorzie deze van duidelijke class-namen. We gebruiken de eerste div als groepje voor alle elementen rondom de afbeelding. De tweede div dient als groepje voor de informatie over dit product.
 3. Plaats de afbeelding in de eerste `<div>`. Zorg dat de afbeelding 100% van de breedte van zijn parent aanneemt.
 4. Plaats ook het hartje in de eerste `<div>` en positioneer deze op de juiste plek (rechtsonderaan de afbeelding). _Tip:_ vergeet de `position: relative;` op de `<div>` (parent) niet, anders ben je straks het hartje kwijt.
